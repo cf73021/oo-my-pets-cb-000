@@ -5,7 +5,7 @@ class Owner
 
   def initialize(name, species="human")
     @name = name
-    @pets = []
+    @pets = {fishes: [], cats: [], dogs: []}
     @species = species
     @@all << self
   end
