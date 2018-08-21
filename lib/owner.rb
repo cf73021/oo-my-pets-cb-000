@@ -7,7 +7,7 @@ class Owner
     @@all << @name
   end
 
-  def self.all
+  def all
     @@all
   end
 end
