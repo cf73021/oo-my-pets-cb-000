@@ -18,4 +18,8 @@ class Owner
   def self.count
     @@all.count
   end
+
+  def self.species
+    species
+  end
 end
