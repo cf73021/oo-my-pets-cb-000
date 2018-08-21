@@ -13,6 +13,7 @@ class Owner
 
   def reset_all
     @@all = []
+  end
 
   def self.count
     @@all.count
