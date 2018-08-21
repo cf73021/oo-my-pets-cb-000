@@ -25,7 +25,7 @@ class Owner
     @species
   end
 
-  def say_species
+  def sef.say_species
     puts "I am a " + @species + "."
   end
 end
